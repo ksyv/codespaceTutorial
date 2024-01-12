@@ -32,8 +32,7 @@ const imageAltText = "connected Work People";
 const projectList = [
   {
     title: "My current projects in GitHub",
-    description:
-      "Collaboration repository about current open project.",
+    description: "Collaboration repository about current open project.",
     url: "https://github.com/ksyv",
   },
   {
@@ -64,7 +63,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideIn" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideIn",
+            }}
             alt={imageAltText}
           />
         </div>
